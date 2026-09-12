@@ -1,40 +1,78 @@
 .team {
   background-color: #f4f4fd;
 }
+
 .team-subtitle {
   margin-bottom: 72px;
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   color: #2e2f42;
 }
+
 .team-list {
   display: flex;
   gap: 24px;
 }
-.team-list-text-container {
-  padding: 32px 16px;
-}
-.team-list li {
-  background-color: #fff;
-}
+
 .team-item {
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
+  background-color: #fff;
+  overflow: hidden;
 }
+
 .team-img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
+
+.team-list-text-container {
+  padding: 32px 16px;
+}
+
 .team-caption {
   margin-bottom: 8px;
-
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
   color: #2e2f42;
 }
+
 .team-text {
+  margin-bottom: 8px;
   text-align: center;
+}
+
+.team-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 0;
+  padding: 0 0 32px;
+}
+
+.team-socials-link {
+  width: 40px;
+  height: 40px;
+}
+.team-socials-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+.team-socials-item:hover,
+.team-socials-item:focus {
+  background-color: #404bbf;
+}
+.team-socials-icon {
+  color: #f4f4fd;
 }
